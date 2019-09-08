@@ -19,8 +19,6 @@
 // available to discuss this package.  To subscribe, send an email to
 // <nullmailer-subscribe@lists.untroubled.org>.
 
-#include <utility>
-
 #include "config.h"
 #include "defines.h"
 #include <ctype.h>

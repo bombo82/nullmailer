@@ -207,7 +207,7 @@ struct header_field
 #define F false
 #define T true
 #define X(N,IA,IR,IS,IRS,R) { #N ":", \
-  static_cast<decltype(std::declval<header_field>().length)>(strlen(#N ":")), \
+  static_cast<header_field::length_t>(strlen(#N ":")), \
   IA,IR,IS,IRS,R,false, false }
 static header_field header_fields[] = {
   // Sender address fields, in order of priority
